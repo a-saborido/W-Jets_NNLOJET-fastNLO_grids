@@ -1,0 +1,207 @@
+ ******************************************************************************************************
+ *                                                                                                    *
+ * NNLOJET: A multiprocess parton level event generator                                               *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * Active bosons:                                                                                     *
+ * W+ boson                                                                                           *
+ *                                                                                                    *
+ * list of active processes:                                                                          *
+ *                                                                                                    *
+ *   id  partons                  Matrix Element                Subtraction                           *
+ *                                                                                                    *
+ *    7  u g to g d nu lp         B2g0W(1,2,3,4,5,6)            qgB2g0WSNLO(1,2,3,4,5,6)              *
+ *    8  u db to g g nu lp        B2g0W(1,3,4,2,5,6)            qqbB2g0WSNLO(1,3,4,2,5,6)             *
+ *    9  g u to g d nu lp         B2g0W(2,1,3,4,5,6)            gqB2g0WSNLO(2,1,3,4,5,6)              *
+ *   10  db u to g g nu lp        B2g0W(2,3,4,1,5,6)            qbqB2g0WSNLO(2,3,4,1,5,6)             *
+ *   11  g g to ub d nu lp        B2g0W(3,1,2,4,5,6)            ggB2g0WSNLO(3,1,2,4,5,6)              *
+ *   12  g db to ub g nu lp       B2g0W(3,1,4,2,5,6)            gqbB2g0WSNLO(3,1,4,2,5,6)             *
+ *   13  db g to ub g nu lp       B2g0W(3,2,4,1,5,6)            qbgB2g0WSNLO(3,2,4,1,5,6)             *
+ *   14  u gt to gt d nu lp       Bt2g0W(1,2,3,4,5,6)           qgtBt2g0WSNLO(1,2,3,4,5,6)            *
+ *   15  u db to gt gt nu lp      Bt2g0W(1,3,4,2,5,6)           qqbBt2g0WSNLO(1,3,4,2,5,6)            *
+ *   16  gt u to gt d nu lp       Bt2g0W(2,1,3,4,5,6)           gtqBt2g0WSNLO(2,1,3,4,5,6)            *
+ *   17  db u to gt gt nu lp      Bt2g0W(2,3,4,1,5,6)           qbqBt2g0WSNLO(2,3,4,1,5,6)            *
+ *   18  gt gt to ub d nu lp      Bt2g0W(3,1,2,4,5,6)           gtgtBt2g0WSNLO(3,1,2,4,5,6)           *
+ *   19  gt db to ub gt nu lp     Bt2g0W(3,1,4,2,5,6)           gtqbBt2g0WSNLO(3,1,4,2,5,6)           *
+ *   20  db gt to ub gt nu lp     Bt2g0W(3,2,4,1,5,6)           qbgtBt2g0WSNLO(3,2,4,1,5,6)           *
+ *   21  u Qb to Qb d nu lp       C0g0W(1,2,3,4,5,6)            qqpbC0g0WSNLO(1,2,3,4,5,6)            *
+ *   22  u Q to Q d nu lp         C0g0W(1,3,2,4,5,6)            qqpC0g0WSNLO(1,3,2,4,5,6)             *
+ *   23  u db to Q Qb nu lp       C0g0W(1,3,4,2,5,6)            qqbC0g0WSNLO(1,3,4,2,5,6)             *
+ *   24  Qb u to Qb d nu lp       C0g0W(2,1,3,4,5,6)            qpbqC0g0WSNLO(2,1,3,4,5,6)            *
+ *   25  Q u to Q d nu lp         C0g0W(2,3,1,4,5,6)            qpqC0g0WSNLO(2,3,1,4,5,6)             *
+ *   26  db u to Q Qb nu lp       C0g0W(2,3,4,1,5,6)            qbqC0g0WSNLO(2,3,4,1,5,6)             *
+ *   27  Qb Q to ub d nu lp       C0g0W(3,1,2,4,5,6)            qpbqpC0g0WSNLO(3,1,2,4,5,6)           *
+ *   28  Qb db to ub Qb nu lp     C0g0W(3,1,4,2,5,6)            qpbqbC0g0WSNLO(3,1,4,2,5,6)           *
+ *   29  Q Qb to ub d nu lp       C0g0W(3,2,1,4,5,6)            qpqpbC0g0WSNLO(3,2,1,4,5,6)           *
+ *   30  db Qb to ub Qb nu lp     C0g0W(3,2,4,1,5,6)            qbqpbC0g0WSNLO(3,2,4,1,5,6)           *
+ *   31  Q db to ub Q nu lp       C0g0W(3,4,1,2,5,6)            qpqbC0g0WSNLO(3,4,1,2,5,6)            *
+ *   32  db Q to ub Q nu lp       C0g0W(3,4,2,1,5,6)            qbqpC0g0WSNLO(3,4,2,1,5,6)            *
+ *   33  u ub to ub d nu lp       D0g0Wa(1,2,3,4,5,6)           qqbD0g0WaSNLO(1,2,3,4,5,6)            *
+ *   34  u u to u d nu lp         D0g0Wa(1,3,2,4,5,6)           qqD0g0WaSNLO(1,3,2,4,5,6)             *
+ *   35  u db to u ub nu lp       D0g0Wa(1,3,4,2,5,6)           qqpbD0g0WaSNLO(1,3,4,2,5,6)           *
+ *   36  ub u to ub d nu lp       D0g0Wa(2,1,3,4,5,6)           qbqD0g0WaSNLO(2,1,3,4,5,6)            *
+ *   37  db u to u ub nu lp       D0g0Wa(2,3,4,1,5,6)           qpbqD0g0WaSNLO(2,3,4,1,5,6)           *
+ *   38  ub db to ub ub nu lp     D0g0Wa(3,1,4,2,5,6)           qbqpbD0g0WaSNLO(3,1,4,2,5,6)          *
+ *   39  db ub to ub ub nu lp     D0g0Wa(3,2,4,1,5,6)           qpbqbD0g0WaSNLO(3,2,4,1,5,6)          *
+ *   40  u db to db d nu lp       D0g0Wb(1,2,3,4,5,6)           qqpbD0g0WbSNLO(1,2,3,4,5,6)           *
+ *   41  u d to d d nu lp         D0g0Wb(1,3,2,4,5,6)           qqpD0g0WbSNLO(1,3,2,4,5,6)            *
+ *   42  db u to db d nu lp       D0g0Wb(2,1,3,4,5,6)           qpbqD0g0WbSNLO(2,1,3,4,5,6)           *
+ *   43  d u to d d nu lp         D0g0Wb(2,3,1,4,5,6)           qpqD0g0WbSNLO(2,3,1,4,5,6)            *
+ *   44  db d to ub d nu lp       D0g0Wb(3,1,2,4,5,6)           qpbqpD0g0WbSNLO(3,1,2,4,5,6)          *
+ *   45  db db to ub db nu lp     D0g0Wb(3,1,4,2,5,6)           qpbqpbD0g0WbSNLO(3,1,4,2,5,6)         *
+ *   46  d db to ub d nu lp       D0g0Wb(3,2,1,4,5,6)           qpqpbD0g0WbSNLO(3,2,1,4,5,6)          *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * input technical parameters :                                                                       *
+ *                                                                                                    *
+ *           y0   =                                                 1.0000E-07                        *
+ * including angular rotations                                                                        *
+ * no phase space caching                                                                             *
+ *                                                                                                    *
+ * input physics parameters :                                                                         *
+ *                                                                                                    *
+ *  Z boson mass                                                      0.91188000000000002387E+02                        *
+ *  Z boson width                                                     0.24954999999999998295E+01                        *
+ *  W boson mass                                                      0.80369200000000006412E+02                        *
+ *  W boson width                                                     0.20849999999999999645E+01                        *
+ *  H boson mass                                                      0.12520000000000000284E+03                        *
+ *  H boson width                                                     0.37000000000000001638E-02                        *
+ * sin^2(thw)                                                         0.22320949284344326902E+00                        *
+ * 1/alpha                                                            0.13210015990941872133E+03                        *
+ *                                                                                                    *
+ *                                                                                                    *
+ * input kinematical parameters :                                                                     *
+ *                                                                                                    *
+ * Process: WPJ                                                                                       *
+ *     sqrt(s) = 8000.0                                                                               *
+ *       > beam1 =         2212 [4000.0 GeV]                                                          *
+ *       > beam2 =         2212 [4000.0 GeV]                                                          *
+ *                                                                                                    *
+ *     Run: = WpJ_R                                                                                   *
+ *     PDF1 = NNPDF31_nnlo_as_0118 [mem = 0]                                                          *
+ *     MatchObs = OFF                                                                                 *
+ *                                                                                                    *
+ * Sweeps                                                                                             *
+ *       warmup = 1000000[6]                                                                          *
+ *                                                                                                    *
+ *                           Warnings                                                                 *
+ *                                                                                                    *
+ * Scales:                                                                                            *
+ *                                                                                                    *
+ *   ID                           muR                                     muF                         *
+ *   1                  8.039E+01 GeV                           8.039E+01 GeV                         *
+ *                                                                                                    *
+ * Selectors:                                                                                         *
+ *                                                                                                    *
+ * T0 accept:        1.00 <= njets                                                                    *
+ * T0 accept:       40.00 <= mt                                                                       *
+ * T0 accept:       25.00 <= etmiss                                                                   *
+ * T0 accept:                abs_ylp         <=         2.50                                          *
+ * T0 accept:       25.00 <= ptlp                                                                     *
+ *                                                                                                    *
+ *   > jet settings <                                                                                 *
+ *                                                                                                    *
+ *   njets:            1 (inclusive)                                                                  *
+ *   jet algorithm:   anti-kt    R = 0.40                                                             *
+ *   accept:       30.00 <= jets_pt                                                                   *
+ *   accept:                jets_abs_y      <=         4.40                                           *
+ *   accept:        0.40 <= jets_min_dr_lj                                                            *
+ *                                                                                                    *
+ *   > photon isolation <                                                                             *
+ *                                                                                                    *
+ *   no photon isolation                                                                              *
+ *                                                                                                    *
+ *   > photon cuts <                                                                                  *
+ *                                                                                                    *
+ *   no photon cuts                                                                                   *
+ *                                                                                                    *
+ *   > lepton isolation <                                                                             *
+ *                                                                                                    *
+ *   no lepton isolation                                                                              *
+ *                                                                                                    *
+ * Histograms:                                                                                        *
+ *                                                                                                    *
+ *   no histogram registered so far                                                                   *
+ *                                                                                                    *
+ * Multi runs:                                                                                        *
+ *                                                                                                    *
+ *   no MultiRun set up                                                                               *
+ *                                                                                                    *
+ * PDF Interpolation:                                                                                 *
+ *                                                                                                    *
+ * active:                   stepfac =    2.0                                                         *
+ *                                                                                                    *
+ ******************************************************************************************************
+ Repository id: []
+ **Runs of the code intended for publication must be done with committed versions of the repository**
+ Welcome to New Vegas
+Commencing iteration n 1
+Number of events: 1000000
+
+************* Integration by Vegas (iteration   1) **************
+*                                                               *
+*  integral  = 0.23502314E+11   accum. integral = 0.23502314E+11*
+*  std. dev. = 0.48158799E+10   accum. std. dev = 0.48158799E+10*
+*                                                               *
+**************   chi**2/iteration =  0.000       ****************
+
+ Writing grid to WpJ.WpJ_R.y1.00E-07.R                                                                                                           
+Commencing iteration n 2
+Number of events: 1000000
+
+************* Integration by Vegas (iteration   2) **************
+*                                                               *
+*  integral  = 0.21494509E+11   accum. integral = 0.22516503E+11*
+*  std. dev. = 0.49034654E+10   accum. std. dev = 0.34358889E+10*
+*                                                               *
+**************   chi**2/iteration = 0.8450E-01   ****************
+
+ Writing grid to WpJ.WpJ_R.y1.00E-07.R                                                                                                           
+Commencing iteration n 3
+Number of events: 1000000
+
+************* Integration by Vegas (iteration   3) **************
+*                                                               *
+*  integral  = 0.26078362E+11   accum. integral = 0.24472088E+11*
+*  std. dev. = 0.31139430E+10   accum. std. dev = 0.23073348E+10*
+*                                                               *
+**************   chi**2/iteration = 0.3360       ****************
+
+ Writing grid to WpJ.WpJ_R.y1.00E-07.R                                                                                                           
+Commencing iteration n 4
+Number of events: 1000000
+
+************* Integration by Vegas (iteration   4) **************
+*                                                               *
+*  integral  = 0.15130248E+11   accum. integral = 0.21750272E+11*
+*  std. dev. = 0.35984133E+10   accum. std. dev = 0.19423352E+10*
+*                                                               *
+**************   chi**2/iteration =  1.811       ****************
+
+ Writing grid to WpJ.WpJ_R.y1.00E-07.R                                                                                                           
+Commencing iteration n 5
+Number of events: 1000000
+
+************* Integration by Vegas (iteration   5) **************
+*                                                               *
+*  integral  = 0.18255836E+11   accum. integral = 0.20053537E+11*
+*  std. dev. = 0.19992910E+10   accum. std. dev = 0.13931389E+10*
+*                                                               *
+**************   chi**2/iteration =  1.751       ****************
+
+ Writing grid to WpJ.WpJ_R.y1.00E-07.R                                                                                                           
+Commencing iteration n 6
+Number of events: 1000000
+
+************* Integration by Vegas (iteration   6) **************
+*                                                               *
+*  integral  = 0.17529911E+11   accum. integral = 0.19376858E+11*
+*  std. dev. = 0.23016018E+10   accum. std. dev = 0.11918157E+10*
+*                                                               *
+**************   chi**2/iteration =  1.577       ****************
+
+ Writing grid to WpJ.WpJ_R.y1.00E-07.R                                                                                                           
+
+ Elapsed time =    34.5142     minutes 

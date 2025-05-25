@@ -1,0 +1,307 @@
+ ******************************************************************************************************
+ *                                                                                                    *
+ * NNLOJET: A multiprocess parton level event generator                                               *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * Active bosons:                                                                                     *
+ * W+ boson                                                                                           *
+ *                                                                                                    *
+ * list of active processes:                                                                          *
+ *                                                                                                    *
+ *   id  partons                  Matrix Element                Subtraction                           *
+ *                                                                                                    *
+ *  409  u g to d nu lp           B1g2Wp(1,2,3,4,5)             qgB1g2WpU(1,2,3,4,5)                  *
+ *  410  u db to g nu lp          B1g2Wp(1,3,2,4,5)             qqbB1g2WpU(1,3,2,4,5)                 *
+ *  411  g u to d nu lp           B1g2Wp(2,1,3,4,5)             gqB1g2WpU(2,1,3,4,5)                  *
+ *  412  db u to g nu lp          B1g2Wp(2,3,1,4,5)             qbqB1g2WpU(2,3,1,4,5)                 *
+ *  413  g db to ub nu lp         B1g2Wp(3,1,2,4,5)             gqbB1g2WpU(3,1,2,4,5)                 *
+ *  414  db g to ub nu lp         B1g2Wp(3,2,1,4,5)             qbgB1g2WpU(3,2,1,4,5)                 *
+ *  415  Q u subtraction                                        qpqB1g2WpU(1,2,3,4,5)                 *
+ *  416  Q db subtraction                                       qpqbB1g2WpU(1,2,3,4,5)                *
+ *  417  Qb u subtraction                                       qpbqB1g2WpU(1,2,3,4,5)                *
+ *  418  Qb db subtraction                                      qpbqbB1g2WpU(1,2,3,4,5)               *
+ *  419  d g subtraction                                        dgB1g2WpU(1,2,3,4,5)                  *
+ *  420  d u subtraction                                        duB1g2WpU(1,2,3,4,5)                  *
+ *  421  db ub subtraction                                      dbubB1g2WpU(1,2,3,4,5)                *
+ *  422  g d subtraction                                        gdB1g2WpU(1,2,3,4,5)                  *
+ *  423  g g subtraction                                        ggB1g2WpU(1,2,3,4,5)                  *
+ *  424  g ub subtraction                                       gubB1g2WpU(1,2,3,4,5)                 *
+ *  425  u Q subtraction                                        qqpB1g2WpU(1,2,3,4,5)                 *
+ *  426  u Qb subtraction                                       qqpbB1g2WpU(1,2,3,4,5)                *
+ *  427  db Q subtraction                                       qbqpB1g2WpU(1,2,3,4,5)                *
+ *  428  db Qb subtraction                                      qbqpbB1g2WpU(1,2,3,4,5)               *
+ *  429  u d subtraction                                        udB1g2WpU(1,2,3,4,5)                  *
+ *  430  ub db subtraction                                      ubdbB1g2WpU(1,2,3,4,5)                *
+ *  431  ub g subtraction                                       ubgB1g2WpU(1,2,3,4,5)                 *
+ *  432  u g to d nu lp           Bt1g2Wp(1,2,3,4,5)            qgBt1g2WpU(1,2,3,4,5)                 *
+ *  433  u db to g nu lp          Bt1g2Wp(1,3,2,4,5)            qqbBt1g2WpU(1,3,2,4,5)                *
+ *  434  g u to d nu lp           Bt1g2Wp(2,1,3,4,5)            gqBt1g2WpU(2,1,3,4,5)                 *
+ *  435  db u to g nu lp          Bt1g2Wp(2,3,1,4,5)            qbqBt1g2WpU(2,3,1,4,5)                *
+ *  436  g db to ub nu lp         Bt1g2Wp(3,1,2,4,5)            gqbBt1g2WpU(3,1,2,4,5)                *
+ *  437  db g to ub nu lp         Bt1g2Wp(3,2,1,4,5)            qbgBt1g2WpU(3,2,1,4,5)                *
+ *  438  Q u subtraction                                        qpqBt1g2WpU(1,2,3,4,5)                *
+ *  439  Q db subtraction                                       qpqbBt1g2WpU(1,2,3,4,5)               *
+ *  440  Qb u subtraction                                       qpbqBt1g2WpU(1,2,3,4,5)               *
+ *  441  Qb db subtraction                                      qpbqbBt1g2WpU(1,2,3,4,5)              *
+ *  442  d g subtraction                                        dgBt1g2WpU(1,2,3,4,5)                 *
+ *  443  d u subtraction                                        duBt1g2WpU(1,2,3,4,5)                 *
+ *  444  db ub subtraction                                      dbubBt1g2WpU(1,2,3,4,5)               *
+ *  445  g d subtraction                                        gdBt1g2WpU(1,2,3,4,5)                 *
+ *  446  g g subtraction                                        ggBt1g2WpU(1,2,3,4,5)                 *
+ *  447  g ub subtraction                                       gubBt1g2WpU(1,2,3,4,5)                *
+ *  448  u Q subtraction                                        qqpBt1g2WpU(1,2,3,4,5)                *
+ *  449  u Qb subtraction                                       qqpbBt1g2WpU(1,2,3,4,5)               *
+ *  450  db Q subtraction                                       qbqpBt1g2WpU(1,2,3,4,5)               *
+ *  451  db Qb subtraction                                      qbqpbBt1g2WpU(1,2,3,4,5)              *
+ *  452  u d subtraction                                        udBt1g2WpU(1,2,3,4,5)                 *
+ *  453  ub db subtraction                                      ubdbBt1g2WpU(1,2,3,4,5)               *
+ *  454  ub g subtraction                                       ubgBt1g2WpU(1,2,3,4,5)                *
+ *  455  u g to d nu lp           Btt1g2W(1,2,3,4,5)            qgBtt1g2WU(1,2,3,4,5)                 *
+ *  456  u db to g nu lp          Btt1g2W(1,3,2,4,5)            qqbBtt1g2WU(1,3,2,4,5)                *
+ *  457  g u to d nu lp           Btt1g2W(2,1,3,4,5)            gqBtt1g2WU(2,1,3,4,5)                 *
+ *  458  db u to g nu lp          Btt1g2W(2,3,1,4,5)            qbqBtt1g2WU(2,3,1,4,5)                *
+ *  459  g db to ub nu lp         Btt1g2W(3,1,2,4,5)            gqbBtt1g2WU(3,1,2,4,5)                *
+ *  460  db g to ub nu lp         Btt1g2W(3,2,1,4,5)            qbgBtt1g2WU(3,2,1,4,5)                *
+ *  461  Q u subtraction                                        qpqBtt1g2WU(1,2,3,4,5)                *
+ *  462  Q db subtraction                                       qpqbBtt1g2WU(1,2,3,4,5)               *
+ *  463  Qb u subtraction                                       qpbqBtt1g2WU(1,2,3,4,5)               *
+ *  464  Qb db subtraction                                      qpbqbBtt1g2WU(1,2,3,4,5)              *
+ *  465  d g subtraction                                        dgBtt1g2WU(1,2,3,4,5)                 *
+ *  466  d u subtraction                                        duBtt1g2WU(1,2,3,4,5)                 *
+ *  467  db ub subtraction                                      dbubBtt1g2WU(1,2,3,4,5)               *
+ *  468  g d subtraction                                        gdBtt1g2WU(1,2,3,4,5)                 *
+ *  469  g g subtraction                                        ggBtt1g2WU(1,2,3,4,5)                 *
+ *  470  g ub subtraction                                       gubBtt1g2WU(1,2,3,4,5)                *
+ *  471  u Q subtraction                                        qqpBtt1g2WU(1,2,3,4,5)                *
+ *  472  u Qb subtraction                                       qqpbBtt1g2WU(1,2,3,4,5)               *
+ *  473  db Q subtraction                                       qbqpBtt1g2WU(1,2,3,4,5)               *
+ *  474  db Qb subtraction                                      qbqpbBtt1g2WU(1,2,3,4,5)              *
+ *  475  u d subtraction                                        udBtt1g2WU(1,2,3,4,5)                 *
+ *  476  ub db subtraction                                      ubdbBtt1g2WU(1,2,3,4,5)               *
+ *  477  ub g subtraction                                       ubgBtt1g2WU(1,2,3,4,5)                *
+ *  478  u g to d nu lp           Bh1g2W(1,2,3,4,5)             qgBh1g2WU(1,2,3,4,5)                  *
+ *  479  u db to g nu lp          Bh1g2W(1,3,2,4,5)             qqbBh1g2WU(1,3,2,4,5)                 *
+ *  480  g u to d nu lp           Bh1g2W(2,1,3,4,5)             gqBh1g2WU(2,1,3,4,5)                  *
+ *  481  db u to g nu lp          Bh1g2W(2,3,1,4,5)             qbqBh1g2WU(2,3,1,4,5)                 *
+ *  482  g db to ub nu lp         Bh1g2W(3,1,2,4,5)             gqbBh1g2WU(3,1,2,4,5)                 *
+ *  483  db g to ub nu lp         Bh1g2W(3,2,1,4,5)             qbgBh1g2WU(3,2,1,4,5)                 *
+ *  484  Q g subtraction                                        qpgBh1g2WU(1,2,3,4,5)                 *
+ *  485  Q u subtraction                                        qpqBh1g2WU(1,2,3,4,5)                 *
+ *  486  Q db subtraction                                       qpqbBh1g2WU(1,2,3,4,5)                *
+ *  487  Qb g subtraction                                       qpbgBh1g2WU(1,2,3,4,5)                *
+ *  488  Qb u subtraction                                       qpbqBh1g2WU(1,2,3,4,5)                *
+ *  489  Qb db subtraction                                      qpbqbBh1g2WU(1,2,3,4,5)               *
+ *  490  d u subtraction                                        duBh1g2WU(1,2,3,4,5)                  *
+ *  491  db ub subtraction                                      dbubBh1g2WU(1,2,3,4,5)                *
+ *  492  g Q subtraction                                        gqpBh1g2WU(1,2,3,4,5)                 *
+ *  493  g Qb subtraction                                       gqpbBh1g2WU(1,2,3,4,5)                *
+ *  494  g g subtraction                                        ggBh1g2WU(1,2,3,4,5)                  *
+ *  495  u Q subtraction                                        qqpBh1g2WU(1,2,3,4,5)                 *
+ *  496  u Qb subtraction                                       qqpbBh1g2WU(1,2,3,4,5)                *
+ *  497  db Q subtraction                                       qbqpBh1g2WU(1,2,3,4,5)                *
+ *  498  db Qb subtraction                                      qbqpbBh1g2WU(1,2,3,4,5)               *
+ *  499  u d subtraction                                        udBh1g2WU(1,2,3,4,5)                  *
+ *  500  ub db subtraction                                      ubdbBh1g2WU(1,2,3,4,5)                *
+ *  501  u g to d nu lp           Bht1g2W(1,2,3,4,5)            qgBht1g2WU(1,2,3,4,5)                 *
+ *  502  u db to g nu lp          Bht1g2W(1,3,2,4,5)            qqbBht1g2WU(1,3,2,4,5)                *
+ *  503  g u to d nu lp           Bht1g2W(2,1,3,4,5)            gqBht1g2WU(2,1,3,4,5)                 *
+ *  504  db u to g nu lp          Bht1g2W(2,3,1,4,5)            qbqBht1g2WU(2,3,1,4,5)                *
+ *  505  g db to ub nu lp         Bht1g2W(3,1,2,4,5)            gqbBht1g2WU(3,1,2,4,5)                *
+ *  506  db g to ub nu lp         Bht1g2W(3,2,1,4,5)            qbgBht1g2WU(3,2,1,4,5)                *
+ *  507  Q g subtraction                                        qpgBht1g2WU(1,2,3,4,5)                *
+ *  508  Q u subtraction                                        qpqBht1g2WU(1,2,3,4,5)                *
+ *  509  Q db subtraction                                       qpqbBht1g2WU(1,2,3,4,5)               *
+ *  510  Qb g subtraction                                       qpbgBht1g2WU(1,2,3,4,5)               *
+ *  511  Qb u subtraction                                       qpbqBht1g2WU(1,2,3,4,5)               *
+ *  512  Qb db subtraction                                      qpbqbBht1g2WU(1,2,3,4,5)              *
+ *  513  d u subtraction                                        duBht1g2WU(1,2,3,4,5)                 *
+ *  514  db ub subtraction                                      dbubBht1g2WU(1,2,3,4,5)               *
+ *  515  g Q subtraction                                        gqpBht1g2WU(1,2,3,4,5)                *
+ *  516  g Qb subtraction                                       gqpbBht1g2WU(1,2,3,4,5)               *
+ *  517  g g subtraction                                        ggBht1g2WU(1,2,3,4,5)                 *
+ *  518  u Q subtraction                                        qqpBht1g2WU(1,2,3,4,5)                *
+ *  519  u Qb subtraction                                       qqpbBht1g2WU(1,2,3,4,5)               *
+ *  520  db Q subtraction                                       qbqpBht1g2WU(1,2,3,4,5)               *
+ *  521  db Qb subtraction                                      qbqpbBht1g2WU(1,2,3,4,5)              *
+ *  522  u d subtraction                                        udBht1g2WU(1,2,3,4,5)                 *
+ *  523  ub db subtraction                                      ubdbBht1g2WU(1,2,3,4,5)               *
+ *  524  u g to d nu lp           Bhh1g2W(1,2,3,4,5)            qgBhh1g2WU(1,2,3,4,5)                 *
+ *  525  u db to g nu lp          Bhh1g2W(1,3,2,4,5)            qqbBhh1g2WU(1,3,2,4,5)                *
+ *  526  g u to d nu lp           Bhh1g2W(2,1,3,4,5)            gqBhh1g2WU(2,1,3,4,5)                 *
+ *  527  db u to g nu lp          Bhh1g2W(2,3,1,4,5)            qbqBhh1g2WU(2,3,1,4,5)                *
+ *  528  g db to ub nu lp         Bhh1g2W(3,1,2,4,5)            gqbBhh1g2WU(3,1,2,4,5)                *
+ *  529  db g to ub nu lp         Bhh1g2W(3,2,1,4,5)            qbgBhh1g2WU(3,2,1,4,5)                *
+ *  530  Q g subtraction                                        qpgBhh1g2WU(1,2,3,4,5)                *
+ *  531  Q u subtraction                                        qpqBhh1g2WU(1,2,3,4,5)                *
+ *  532  Q db subtraction                                       qpqbBhh1g2WU(1,2,3,4,5)               *
+ *  533  Qb g subtraction                                       qpbgBhh1g2WU(1,2,3,4,5)               *
+ *  534  Qb u subtraction                                       qpbqBhh1g2WU(1,2,3,4,5)               *
+ *  535  Qb db subtraction                                      qpbqbBhh1g2WU(1,2,3,4,5)              *
+ *  536  d u subtraction                                        duBhh1g2WU(1,2,3,4,5)                 *
+ *  537  db ub subtraction                                      dbubBhh1g2WU(1,2,3,4,5)               *
+ *  538  g Q subtraction                                        gqpBhh1g2WU(1,2,3,4,5)                *
+ *  539  g Qb subtraction                                       gqpbBhh1g2WU(1,2,3,4,5)               *
+ *  540  g g subtraction                                        ggBhh1g2WU(1,2,3,4,5)                 *
+ *  541  u Q subtraction                                        qqpBhh1g2WU(1,2,3,4,5)                *
+ *  542  u Qb subtraction                                       qqpbBhh1g2WU(1,2,3,4,5)               *
+ *  543  db Q subtraction                                       qbqpBhh1g2WU(1,2,3,4,5)               *
+ *  544  db Qb subtraction                                      qbqpbBhh1g2WU(1,2,3,4,5)              *
+ *  545  u d subtraction                                        udBhh1g2WU(1,2,3,4,5)                 *
+ *  546  ub db subtraction                                      ubdbBhh1g2WU(1,2,3,4,5)               *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * input technical parameters :                                                                       *
+ *                                                                                                    *
+ *           y0   =                                                 1.0000E-07                        *
+ * including angular rotations                                                                        *
+ * no phase space caching                                                                             *
+ *                                                                                                    *
+ * input physics parameters :                                                                         *
+ *                                                                                                    *
+ *  Z boson mass                                                      0.91188000000000002387E+02                        *
+ *  Z boson width                                                     0.24954999999999998295E+01                        *
+ *  W boson mass                                                      0.80369200000000006412E+02                        *
+ *  W boson width                                                     0.20849999999999999645E+01                        *
+ *  H boson mass                                                      0.12520000000000000284E+03                        *
+ *  H boson width                                                     0.37000000000000001638E-02                        *
+ * sin^2(thw)                                                         0.22320949284344326902E+00                        *
+ * 1/alpha                                                            0.13210015990941872133E+03                        *
+ *                                                                                                    *
+ *                                                                                                    *
+ * input kinematical parameters :                                                                     *
+ *                                                                                                    *
+ * Process: WPJ                                                                                       *
+ *     sqrt(s) = 8000.0                                                                               *
+ *       > beam1 =         2212 [4000.0 GeV]                                                          *
+ *       > beam2 =         2212 [4000.0 GeV]                                                          *
+ *                                                                                                    *
+ *     Run: = WpJ_VV                                                                                  *
+ *     PDF1 = NNPDF31_nnlo_as_0118 [mem = 0]                                                          *
+ *     MatchObs = OFF                                                                                 *
+ *                                                                                                    *
+ * Sweeps                                                                                             *
+ *       warmup = 2500000[6]                                                                          *
+ *                                                                                                    *
+ *                           Warnings                                                                 *
+ *                                                                                                    *
+ * Scales:                                                                                            *
+ *                                                                                                    *
+ *   ID                           muR                                     muF                         *
+ *   1                  8.039E+01 GeV                           8.039E+01 GeV                         *
+ *                                                                                                    *
+ * Selectors:                                                                                         *
+ *                                                                                                    *
+ * T0 accept:        1.00 <= njets                                                                    *
+ * T0 accept:       40.00 <= mt                                                                       *
+ * T0 accept:       25.00 <= etmiss                                                                   *
+ * T0 accept:                abs_ylp         <=         2.50                                          *
+ * T0 accept:       25.00 <= ptlp                                                                     *
+ *                                                                                                    *
+ *   > jet settings <                                                                                 *
+ *                                                                                                    *
+ *   njets:            1 (inclusive)                                                                  *
+ *   jet algorithm:   anti-kt    R = 0.40                                                             *
+ *   accept:       30.00 <= jets_pt                                                                   *
+ *   accept:                jets_abs_y      <=         4.40                                           *
+ *   accept:        0.40 <= jets_min_dr_lj                                                            *
+ *                                                                                                    *
+ *   > photon isolation <                                                                             *
+ *                                                                                                    *
+ *   no photon isolation                                                                              *
+ *                                                                                                    *
+ *   > photon cuts <                                                                                  *
+ *                                                                                                    *
+ *   no photon cuts                                                                                   *
+ *                                                                                                    *
+ *   > lepton isolation <                                                                             *
+ *                                                                                                    *
+ *   no lepton isolation                                                                              *
+ *                                                                                                    *
+ * Histograms:                                                                                        *
+ *                                                                                                    *
+ *   no histogram registered so far                                                                   *
+ *                                                                                                    *
+ * Multi runs:                                                                                        *
+ *                                                                                                    *
+ *   no MultiRun set up                                                                               *
+ *                                                                                                    *
+ * PDF Interpolation:                                                                                 *
+ *                                                                                                    *
+ * active:                   stepfac =    2.0                                                         *
+ *                                                                                                    *
+ ******************************************************************************************************
+ Repository id: []
+ **Runs of the code intended for publication must be done with committed versions of the repository**
+ Maximum available threads:          128
+ Allocated number of threads:          110
+ Welcome to New Vegas
+Commencing iteration n 1
+Number of events: 2500000
+
+************* Integration by Vegas (iteration   1) **************
+*                                                               *
+*  integral  = 0.91275531E+10   accum. integral = 0.91275531E+10*
+*  std. dev. = 0.33542585E+09   accum. std. dev = 0.33542585E+09*
+*                                                               *
+**************   chi**2/iteration =  0.000       ****************
+
+ Writing grid to WpJ.WpJ_VV.y1.00E-07.VV                                                                                                         
+Commencing iteration n 2
+Number of events: 2500000
+
+************* Integration by Vegas (iteration   2) **************
+*                                                               *
+*  integral  = 0.95232564E+10   accum. integral = 0.93902095E+10*
+*  std. dev. = 0.23872895E+09   accum. std. dev = 0.19449758E+09*
+*                                                               *
+**************   chi**2/iteration = 0.9146       ****************
+
+ Writing grid to WpJ.WpJ_VV.y1.00E-07.VV                                                                                                         
+Commencing iteration n 3
+Number of events: 2500000
+
+************* Integration by Vegas (iteration   3) **************
+*                                                               *
+*  integral  = 0.92476339E+10   accum. integral = 0.92976231E+10*
+*  std. dev. = 0.14291524E+09   accum. std. dev = 0.11516741E+09*
+*                                                               *
+**************   chi**2/iteration = 0.6332       ****************
+
+ Writing grid to WpJ.WpJ_VV.y1.00E-07.VV                                                                                                         
+Commencing iteration n 4
+Number of events: 2500000
+
+************* Integration by Vegas (iteration   4) **************
+*                                                               *
+*  integral  = 0.94776070E+10   accum. integral = 0.93787721E+10*
+*  std. dev. = 0.12709935E+09   accum. std. dev =  85343018.    *
+*                                                               *
+**************   chi**2/iteration = 0.7887       ****************
+
+ Writing grid to WpJ.WpJ_VV.y1.00E-07.VV                                                                                                         
+Commencing iteration n 5
+Number of events: 2500000
+
+************* Integration by Vegas (iteration   5) **************
+*                                                               *
+*  integral  = 0.92896933E+10   accum. integral = 0.93387331E+10*
+*  std. dev. =  94449801.       accum. std. dev =  63322099.    *
+*                                                               *
+**************   chi**2/iteration = 0.7141       ****************
+
+ Writing grid to WpJ.WpJ_VV.y1.00E-07.VV                                                                                                         
+Commencing iteration n 6
+Number of events: 2500000
+
+************* Integration by Vegas (iteration   6) **************
+*                                                               *
+*  integral  = 0.93512989E+10   accum. integral = 0.93436102E+10*
+*  std. dev. =  79506445.       accum. std. dev =  49532156.    *
+*                                                               *
+**************   chi**2/iteration = 0.5746       ****************
+
+ Writing grid to WpJ.WpJ_VV.y1.00E-07.VV                                                                                                         
+
+ Elapsed time =    4.75670     hours 

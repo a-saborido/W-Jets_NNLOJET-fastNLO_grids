@@ -1,0 +1,132 @@
+ ******************************************************************************************************
+ *                                                                                                    *
+ * NNLOJET: A multiprocess parton level event generator                                               *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * Active bosons:                                                                                     *
+ * W+ boson                                                                                           *
+ *                                                                                                    *
+ * list of active processes:                                                                          *
+ *                                                                                                    *
+ *   id  partons                  Matrix Element                Subtraction                           *
+ *                                                                                                    *
+ *    1  u g to d nu lp           B1g0W(1,2,3,4,5)                                                    *
+ *    2  u db to g nu lp          B1g0W(1,3,2,4,5)                                                    *
+ *    3  g u to d nu lp           B1g0W(2,1,3,4,5)                                                    *
+ *    4  db u to g nu lp          B1g0W(2,3,1,4,5)                                                    *
+ *    5  g db to ub nu lp         B1g0W(3,1,2,4,5)                                                    *
+ *    6  db g to ub nu lp         B1g0W(3,2,1,4,5)                                                    *
+ *                                                                                                    *
+ ******************************************************************************************************
+ *                                                                                                    *
+ * input technical parameters :                                                                       *
+ *                                                                                                    *
+ *           y0   =                                                 1.0000E-07                        *
+ * including angular rotations                                                                        *
+ * no phase space caching                                                                             *
+ *                                                                                                    *
+ * input physics parameters :                                                                         *
+ *                                                                                                    *
+ *  Z boson mass                                                      0.91188000000000002387E+02                        *
+ *  Z boson width                                                     0.24954999999999998295E+01                        *
+ *  W boson mass                                                      0.80369200000000006412E+02                        *
+ *  W boson width                                                     0.20849999999999999645E+01                        *
+ *  H boson mass                                                      0.12520000000000000284E+03                        *
+ *  H boson width                                                     0.37000000000000001638E-02                        *
+ * sin^2(thw)                                                         0.22320949284344326902E+00                        *
+ * 1/alpha                                                            0.13210015990941872133E+03                        *
+ *                                                                                                    *
+ *                                                                                                    *
+ * input kinematical parameters :                                                                     *
+ *                                                                                                    *
+ * Process: WPJ                                                                                       *
+ *     sqrt(s) = 8000.0                                                                               *
+ *       > beam1 =         2212 [4000.0 GeV]                                                          *
+ *       > beam2 =         2212 [4000.0 GeV]                                                          *
+ *                                                                                                    *
+ *     Run: = WpJ_LO                                                                                  *
+ *     PDF1 = NNPDF31_nnlo_as_0118 [mem = 0]                                                          *
+ *     MatchObs = OFF                                                                                 *
+ *                                                                                                    *
+ * Sweeps                                                                                             *
+ *       production = 50000000[1]                                                                     *
+ *                                                                                                    *
+ *                           Warnings                                                                 *
+ *                                                                                                    *
+ * Scales:                                                                                            *
+ *                                                                                                    *
+ *   ID                           muR                                     muF                         *
+ *   1                  8.039E+01 GeV                           8.039E+01 GeV                         *
+ *   2                  4.019E+01 GeV                           4.019E+01 GeV                         *
+ *   3                  1.608E+02 GeV                           1.608E+02 GeV                         *
+ *                                                                                                    *
+ * Selectors:                                                                                         *
+ *                                                                                                    *
+ * T0 accept:        1.00 <= njets                                                                    *
+ * T0 accept:       40.00 <= mt                                                                       *
+ * T0 accept:       25.00 <= etmiss                                                                   *
+ * T0 accept:                abs_ylp         <=         2.50                                          *
+ * T0 accept:       25.00 <= ptlp                                                                     *
+ *                                                                                                    *
+ *   > jet settings <                                                                                 *
+ *                                                                                                    *
+ *   njets:            1 (inclusive)                                                                  *
+ *   jet algorithm:   anti-kt    R = 0.40                                                             *
+ *   accept:       30.00 <= jets_pt                                                                   *
+ *   accept:                jets_abs_y      <=         4.40                                           *
+ *   accept:        0.40 <= jets_min_dr_lj                                                            *
+ *                                                                                                    *
+ *   > photon isolation <                                                                             *
+ *                                                                                                    *
+ *   no photon isolation                                                                              *
+ *                                                                                                    *
+ *   > photon cuts <                                                                                  *
+ *                                                                                                    *
+ *   no photon cuts                                                                                   *
+ *                                                                                                    *
+ *   > lepton isolation <                                                                             *
+ *                                                                                                    *
+ *   no lepton isolation                                                                              *
+ *                                                                                                    *
+ * Histograms:                                                                                        *
+ *                                                                                                    *
+ * 0 abs_yj1_var             (abs_yj1         in   41 bins)     [       0.000,        4.400]          *                              
+ * igrid =            2 : abs_yj1.fast                                                                                                                    
+ *                                                                                                    *
+ * 0 ptj1_var                (ptj1            in   22 bins)     [      30.000,     1000.000]          *                              
+ * igrid =            2 : ptj1.fast                                                                                                                       
+ *                                                                                                    *
+ * 0 ptw_var                 (ptw             in   16 bins)     [       0.000,      800.000]          *                              
+ * igrid =            2 : ptw.fast                                                                                                                        
+ *                                                                                                    *
+ * 0 ht_full_var             (ht_full         in   21 bins)     [      50.000,     2500.000]          *                              
+ * igrid =            2 : ht_full.fast                                                                                                                    
+ *                                                                                                    *
+ * 1 cross                   (cross)                                                                  *                              
+ *                                                                                                    *
+ *                                                                                                    *
+ * Multi runs:                                                                                        *
+ *                                                                                                    *
+ *   no MultiRun set up                                                                               *
+ *                                                                                                    *
+ * PDF Interpolation:                                                                                 *
+ *                                                                                                    *
+ * active:                   stepfac =    2.0                                                         *
+ *                                                                                                    *
+ ******************************************************************************************************
+ Repository id: []
+ **Runs of the code intended for publication must be done with committed versions of the repository**
+ Welcome to New Vegas
+Commencing iteration n 1
+Number of events: 50000000
+
+************* Integration by Vegas (iteration   1) **************
+*                                                               *
+*  integral  = 0.36621975E+12   accum. integral = 0.36621975E+12*
+*  std. dev. = 0.12053288E+09   accum. std. dev = 0.12053288E+09*
+*                                                               *
+**************   chi**2/iteration =  0.000       ****************
+
+
+ Elapsed time =    28.6202     minutes 
