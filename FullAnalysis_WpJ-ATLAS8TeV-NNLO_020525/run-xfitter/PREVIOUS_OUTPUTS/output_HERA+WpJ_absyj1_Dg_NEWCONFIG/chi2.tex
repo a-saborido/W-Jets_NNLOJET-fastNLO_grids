@@ -1,0 +1,40 @@
+\documentclass[14pt]{report}
+\usepackage{extsizes}
+\usepackage[paperwidth=21cm,paperheight=21cm,left=0.2cm,right=0.2cm,top=0.5cm,bottom=0.5cm]{geometry}
+\usepackage{pxfonts}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{lightgray}{gray}{0.87}
+\begin{document}
+\begin{table}
+  \begin{center}
+  \rowcolors{2}{lightgray}{}
+  \resizebox*{\textwidth}{!}{
+    \begin{tabular}{lp{2.57cm}}
+      \toprule
+  Dataset     & output  \\ 
+      \midrule
+  HERA1+2 NCep 820 & 71 / 70  \\ 
+  HERA1+2 NCep 460 & 216 / 204  \\ 
+  HERA1+2 CCep & 45 / 39  \\ 
+  HERA1+2 NCem & 218 / 159  \\ 
+  HERA1+2 CCem & 58 / 42  \\ 
+  HERA1+2 NCep 575 & 222 / 254  \\ 
+  HERA1+2 NCep 920 & 446 / 377  \\ 
+  Correlated $\chi^2$  & 99  \\ 
+  Log penalty $\chi^2$  & +11  \\ 
+  \rowcolor{white}
+      \midrule
+  Total $\chi^2$ / dof  & 1385 / 1132  \\ 
+  \rowcolor{white}
+      \midrule
+  $\chi^2$ p-value  & 0.00   \\ 
+      \bottomrule
+    \end{tabular}
+  }
+  \end{center}
+\end{table}
+
+\end{document}

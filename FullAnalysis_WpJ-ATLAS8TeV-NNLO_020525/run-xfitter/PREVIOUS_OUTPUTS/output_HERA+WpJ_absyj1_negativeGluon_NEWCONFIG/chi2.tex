@@ -1,0 +1,41 @@
+\documentclass[14pt]{report}
+\usepackage{extsizes}
+\usepackage[paperwidth=21cm,paperheight=21cm,left=0.2cm,right=0.2cm,top=0.5cm,bottom=0.5cm]{geometry}
+\usepackage{pxfonts}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{lightgray}{gray}{0.87}
+\begin{document}
+\begin{table}
+  \begin{center}
+  \rowcolors{2}{lightgray}{}
+  \resizebox*{\textwidth}{!}{
+    \begin{tabular}{lp{2.57cm}}
+      \toprule
+  Dataset     & output  \\ 
+      \midrule
+  HERA1+2 NCep 820 & 66 / 70  \\ 
+  HERA1+2 NCep 460 & 219 / 204  \\ 
+  HERA1+2 CCep & 50 / 39  \\ 
+  ATLAS 8 TeV $W^+$ +jets jet 1 rap & 2265 / 41  \\ 
+  HERA1+2 NCem & 225 / 159  \\ 
+  HERA1+2 CCem & 91 / 42  \\ 
+  HERA1+2 NCep 575 & 221 / 254  \\ 
+  HERA1+2 NCep 920 & 443 / 377  \\ 
+  Correlated $\chi^2$  & 309  \\ 
+  Log penalty $\chi^2$  & -2.97  \\ 
+  \rowcolor{white}
+      \midrule
+  Total $\chi^2$ / dof  & 3886 / 1172  \\ 
+  \rowcolor{white}
+      \midrule
+  $\chi^2$ p-value  & 0.00   \\ 
+      \bottomrule
+    \end{tabular}
+  }
+  \end{center}
+\end{table}
+
+\end{document}

@@ -1,0 +1,461 @@
+nohup: ignoring input
+ # INFO.    [fnlo-tk-merge2] Tool to merge fastNLO tables with different contributions or
+ # INFO.    [fnlo-tk-merge2] to combine identical statistically independent contributions
+ # INFO.    [fnlo-tk-merge2] NNLOJET specified weights are read from file: NNLO.ptw_var.weights.txt
+ # INFO.    [fnlo-tk-merge2] Using weighting option: NNLOJET.
+
+ ---- Reading file with weights ---- 
+Read weights for 3651 output files and 16 bins.
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/001/00/WpJ.WpJ_VV.VV.ptw.s100.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/001/00/WpJ.WpJ_VV.VV.ptw.s100.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/002/00/WpJ.WpJ_VV.VV.ptw.s200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/002/00/WpJ.WpJ_VV.VV.ptw.s200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/003/00/WpJ.WpJ_VV.VV.ptw.s300.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/003/00/WpJ.WpJ_VV.VV.ptw.s300.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/004/00/WpJ.WpJ_VV.VV.ptw.s400.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/004/00/WpJ.WpJ_VV.VV.ptw.s400.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/005/00/WpJ.WpJ_VV.VV.ptw.s500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/005/00/WpJ.WpJ_VV.VV.ptw.s500.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/006/00/WpJ.WpJ_VV.VV.ptw.s600.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/006/00/WpJ.WpJ_VV.VV.ptw.s600.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/007/00/WpJ.WpJ_VV.VV.ptw.s700.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/007/00/WpJ.WpJ_VV.VV.ptw.s700.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/008/00/WpJ.WpJ_VV.VV.ptw.s800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/008/00/WpJ.WpJ_VV.VV.ptw.s800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/009/00/WpJ.WpJ_VV.VV.ptw.s900.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/009/00/WpJ.WpJ_VV.VV.ptw.s900.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/010/00/WpJ.WpJ_VV.VV.ptw.s1000.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/010/00/WpJ.WpJ_VV.VV.ptw.s1000.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/011/00/WpJ.WpJ_VV.VV.ptw.s1100.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/011/00/WpJ.WpJ_VV.VV.ptw.s1100.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/012/00/WpJ.WpJ_VV.VV.ptw.s1200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/012/00/WpJ.WpJ_VV.VV.ptw.s1200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/013/00/WpJ.WpJ_VV.VV.ptw.s1300.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/013/00/WpJ.WpJ_VV.VV.ptw.s1300.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/014/00/WpJ.WpJ_VV.VV.ptw.s1400.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/014/00/WpJ.WpJ_VV.VV.ptw.s1400.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/015/00/WpJ.WpJ_VV.VV.ptw.s1500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/015/00/WpJ.WpJ_VV.VV.ptw.s1500.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/016/00/WpJ.WpJ_VV.VV.ptw.s1600.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/016/00/WpJ.WpJ_VV.VV.ptw.s1600.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/017/00/WpJ.WpJ_VV.VV.ptw.s1700.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/017/00/WpJ.WpJ_VV.VV.ptw.s1700.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/018/00/WpJ.WpJ_VV.VV.ptw.s1800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/018/00/WpJ.WpJ_VV.VV.ptw.s1800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/019/00/WpJ.WpJ_VV.VV.ptw.s1900.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/019/00/WpJ.WpJ_VV.VV.ptw.s1900.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/020/00/WpJ.WpJ_VV.VV.ptw.s2000.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/020/00/WpJ.WpJ_VV.VV.ptw.s2000.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/021/00/WpJ.WpJ_VV.VV.ptw.s2100.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/021/00/WpJ.WpJ_VV.VV.ptw.s2100.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/022/00/WpJ.WpJ_VV.VV.ptw.s2200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/022/00/WpJ.WpJ_VV.VV.ptw.s2200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/023/00/WpJ.WpJ_VV.VV.ptw.s2300.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/023/00/WpJ.WpJ_VV.VV.ptw.s2300.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/024/00/WpJ.WpJ_VV.VV.ptw.s2400.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/024/00/WpJ.WpJ_VV.VV.ptw.s2400.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/025/00/WpJ.WpJ_VV.VV.ptw.s2500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/025/00/WpJ.WpJ_VV.VV.ptw.s2500.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/026/00/WpJ.WpJ_VV.VV.ptw.s2600.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/026/00/WpJ.WpJ_VV.VV.ptw.s2600.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/027/00/WpJ.WpJ_VV.VV.ptw.s2700.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/027/00/WpJ.WpJ_VV.VV.ptw.s2700.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/028/00/WpJ.WpJ_VV.VV.ptw.s2800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/028/00/WpJ.WpJ_VV.VV.ptw.s2800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/029/00/WpJ.WpJ_VV.VV.ptw.s2900.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/029/00/WpJ.WpJ_VV.VV.ptw.s2900.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/030/00/WpJ.WpJ_VV.VV.ptw.s3000.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/030/00/WpJ.WpJ_VV.VV.ptw.s3000.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/031/00/WpJ.WpJ_VV.VV.ptw.s3100.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/031/00/WpJ.WpJ_VV.VV.ptw.s3100.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/032/00/WpJ.WpJ_VV.VV.ptw.s3200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/032/00/WpJ.WpJ_VV.VV.ptw.s3200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/033/00/WpJ.WpJ_VV.VV.ptw.s3300.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/033/00/WpJ.WpJ_VV.VV.ptw.s3300.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/034/00/WpJ.WpJ_VV.VV.ptw.s3400.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/034/00/WpJ.WpJ_VV.VV.ptw.s3400.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/035/00/WpJ.WpJ_VV.VV.ptw.s3500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/035/00/WpJ.WpJ_VV.VV.ptw.s3500.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/036/00/WpJ.WpJ_VV.VV.ptw.s3600.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/036/00/WpJ.WpJ_VV.VV.ptw.s3600.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/037/00/WpJ.WpJ_VV.VV.ptw.s3700.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/037/00/WpJ.WpJ_VV.VV.ptw.s3700.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/038/00/WpJ.WpJ_VV.VV.ptw.s3800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/038/00/WpJ.WpJ_VV.VV.ptw.s3800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/039/00/WpJ.WpJ_VV.VV.ptw.s3900.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/039/00/WpJ.WpJ_VV.VV.ptw.s3900.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/040/00/WpJ.WpJ_VV.VV.ptw.s4000.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/040/00/WpJ.WpJ_VV.VV.ptw.s4000.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/041/00/WpJ.WpJ_VV.VV.ptw.s4100.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/041/00/WpJ.WpJ_VV.VV.ptw.s4100.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/042/00/WpJ.WpJ_VV.VV.ptw.s4200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/042/00/WpJ.WpJ_VV.VV.ptw.s4200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/059/00/WpJ.WpJ_VV.VV.ptw.s5900.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/059/00/WpJ.WpJ_VV.VV.ptw.s5900.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/065/00/WpJ.WpJ_VV.VV.ptw.s6500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/065/00/WpJ.WpJ_VV.VV.ptw.s6500.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/074/00/WpJ.WpJ_VV.VV.ptw.s7400.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/074/00/WpJ.WpJ_VV.VV.ptw.s7400.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/081/00/WpJ.WpJ_VV.VV.ptw.s8100.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/081/00/WpJ.WpJ_VV.VV.ptw.s8100.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/083/00/WpJ.WpJ_VV.VV.ptw.s8300.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/083/00/WpJ.WpJ_VV.VV.ptw.s8300.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/085/00/WpJ.WpJ_VV.VV.ptw.s8500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/085/00/WpJ.WpJ_VV.VV.ptw.s8500.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/097/00/WpJ.WpJ_VV.VV.ptw.s9700.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/097/00/WpJ.WpJ_VV.VV.ptw.s9700.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/098/00/WpJ.WpJ_VV.VV.ptw.s9800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/098/00/WpJ.WpJ_VV.VV.ptw.s9800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/102/00/WpJ.WpJ_VV.VV.ptw.s10200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/102/00/WpJ.WpJ_VV.VV.ptw.s10200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/108/00/WpJ.WpJ_VV.VV.ptw.s10800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/108/00/WpJ.WpJ_VV.VV.ptw.s10800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/115/00/WpJ.WpJ_VV.VV.ptw.s11500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/115/00/WpJ.WpJ_VV.VV.ptw.s11500.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/118/00/WpJ.WpJ_VV.VV.ptw.s11800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/118/00/WpJ.WpJ_VV.VV.ptw.s11800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/128/00/WpJ.WpJ_VV.VV.ptw.s12800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/128/00/WpJ.WpJ_VV.VV.ptw.s12800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/136/00/WpJ.WpJ_VV.VV.ptw.s13600.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/136/00/WpJ.WpJ_VV.VV.ptw.s13600.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/138/00/WpJ.WpJ_VV.VV.ptw.s13800.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/138/00/WpJ.WpJ_VV.VV.ptw.s13800.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/139/00/WpJ.WpJ_VV.VV.ptw.s13900.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/139/00/WpJ.WpJ_VV.VV.ptw.s13900.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/140/00/WpJ.WpJ_VV.VV.ptw.s14000.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/140/00/WpJ.WpJ_VV.VV.ptw.s14000.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/142/00/WpJ.WpJ_VV.VV.ptw.s14200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/142/00/WpJ.WpJ_VV.VV.ptw.s14200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/144/00/WpJ.WpJ_VV.VV.ptw.s14400.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/144/00/WpJ.WpJ_VV.VV.ptw.s14400.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/150/00/WpJ.WpJ_VV.VV.ptw.s15000.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/150/00/WpJ.WpJ_VV.VV.ptw.s15000.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/171/00/WpJ.WpJ_VV.VV.ptw.s17100.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/171/00/WpJ.WpJ_VV.VV.ptw.s17100.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/172/00/WpJ.WpJ_VV.VV.ptw.s17200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/172/00/WpJ.WpJ_VV.VV.ptw.s17200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/172/00/WpJ.WpJ_VV.VV.ptw.s17200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/174/00/WpJ.WpJ_VV.VV.ptw.s17400.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/174/00/WpJ.WpJ_VV.VV.ptw.s17400.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/176/00/WpJ.WpJ_VV.VV.ptw.s17600.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/176/00/WpJ.WpJ_VV.VV.ptw.s17600.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/186/00/WpJ.WpJ_VV.VV.ptw.s18600.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/186/00/WpJ.WpJ_VV.VV.ptw.s18600.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/192/00/WpJ.WpJ_VV.VV.ptw.s19200.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/192/00/WpJ.WpJ_VV.VV.ptw.s19200.tab.gz
+Warning. Weight is zero, using tiny number instead. (input: 0.00000000000E+00) file: ../../VV/VVjob_highstat/195/00/WpJ.WpJ_VV.VV.ptw.s19500.tab.gz
+Found 16 weights for input file: ../../VV/VVjob_highstat/195/00/WpJ.WpJ_VV.VV.ptw.s19500.tab.gz
+ ##################################################################################
+ #
+ # [0;31mfast[0;34mNLO[0m_toolkit
+ # Version 2.6.0_3067
+ #
+ # C++ program and toolkit to read and create fastNLO v2 tables and
+ # derive QCD cross sections using PDFs, e.g. from LHAPDF
+ #
+ #---------------------------------------------------------------------------------
+ #
+ # Copyright © 2005-2025 [0;31mfast[0;34mNLO[0m Collaboration
+ # D. Britzger, T. Kluge, K. Rabbertz, F. Stober, G. Sieber, M. Wobisch
+ #
+ # This program is free software: you can redistribute it and/or modify
+ # it under the terms of the GNU General Public License as published by
+ # the Free Software Foundation, either version 3 of the License, or
+ # (at your option) any later version.
+ #
+ # This program is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ # GNU General Public License for more details.
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program. If not, see <http://www.gnu.org/licenses/>.
+ #
+ #---------------------------------------------------------------------------------
+ #
+ # The projects web page can be found at:
+ #   http://projects.hepforge.org/fastnlo
+ #
+ # If you use this code, please cite:
+ #   T. Kluge, K. Rabbertz, M. Wobisch, Proc. DIS 2006, 483 (2006), hep-ph/0609285.
+ #   D. Britzger, K. Rabbertz, F. Stober, M. Wobisch, Proc. DIS 2012, 217 (2012), arXiv:1208.3641.
+ #
+ ##################################################################################
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/001/00/WpJ.WpJ_VV.VV.ptw.s100.tab.gz successfully.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/002/00/WpJ.WpJ_VV.VV.ptw.s200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/003/00/WpJ.WpJ_VV.VV.ptw.s300.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/004/00/WpJ.WpJ_VV.VV.ptw.s400.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/005/00/WpJ.WpJ_VV.VV.ptw.s500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/006/00/WpJ.WpJ_VV.VV.ptw.s600.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/007/00/WpJ.WpJ_VV.VV.ptw.s700.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/008/00/WpJ.WpJ_VV.VV.ptw.s800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/009/00/WpJ.WpJ_VV.VV.ptw.s900.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/010/00/WpJ.WpJ_VV.VV.ptw.s1000.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/011/00/WpJ.WpJ_VV.VV.ptw.s1100.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/012/00/WpJ.WpJ_VV.VV.ptw.s1200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/013/00/WpJ.WpJ_VV.VV.ptw.s1300.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/014/00/WpJ.WpJ_VV.VV.ptw.s1400.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/015/00/WpJ.WpJ_VV.VV.ptw.s1500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/016/00/WpJ.WpJ_VV.VV.ptw.s1600.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/017/00/WpJ.WpJ_VV.VV.ptw.s1700.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/018/00/WpJ.WpJ_VV.VV.ptw.s1800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/019/00/WpJ.WpJ_VV.VV.ptw.s1900.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/020/00/WpJ.WpJ_VV.VV.ptw.s2000.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/021/00/WpJ.WpJ_VV.VV.ptw.s2100.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/022/00/WpJ.WpJ_VV.VV.ptw.s2200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/023/00/WpJ.WpJ_VV.VV.ptw.s2300.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/024/00/WpJ.WpJ_VV.VV.ptw.s2400.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/025/00/WpJ.WpJ_VV.VV.ptw.s2500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/026/00/WpJ.WpJ_VV.VV.ptw.s2600.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/027/00/WpJ.WpJ_VV.VV.ptw.s2700.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/028/00/WpJ.WpJ_VV.VV.ptw.s2800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/029/00/WpJ.WpJ_VV.VV.ptw.s2900.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/030/00/WpJ.WpJ_VV.VV.ptw.s3000.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/031/00/WpJ.WpJ_VV.VV.ptw.s3100.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/032/00/WpJ.WpJ_VV.VV.ptw.s3200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/033/00/WpJ.WpJ_VV.VV.ptw.s3300.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/034/00/WpJ.WpJ_VV.VV.ptw.s3400.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/035/00/WpJ.WpJ_VV.VV.ptw.s3500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/036/00/WpJ.WpJ_VV.VV.ptw.s3600.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/037/00/WpJ.WpJ_VV.VV.ptw.s3700.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/038/00/WpJ.WpJ_VV.VV.ptw.s3800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/039/00/WpJ.WpJ_VV.VV.ptw.s3900.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/040/00/WpJ.WpJ_VV.VV.ptw.s4000.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/041/00/WpJ.WpJ_VV.VV.ptw.s4100.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/042/00/WpJ.WpJ_VV.VV.ptw.s4200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/059/00/WpJ.WpJ_VV.VV.ptw.s5900.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/065/00/WpJ.WpJ_VV.VV.ptw.s6500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/074/00/WpJ.WpJ_VV.VV.ptw.s7400.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/081/00/WpJ.WpJ_VV.VV.ptw.s8100.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/083/00/WpJ.WpJ_VV.VV.ptw.s8300.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/085/00/WpJ.WpJ_VV.VV.ptw.s8500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/097/00/WpJ.WpJ_VV.VV.ptw.s9700.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/098/00/WpJ.WpJ_VV.VV.ptw.s9800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/102/00/WpJ.WpJ_VV.VV.ptw.s10200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/108/00/WpJ.WpJ_VV.VV.ptw.s10800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/115/00/WpJ.WpJ_VV.VV.ptw.s11500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/118/00/WpJ.WpJ_VV.VV.ptw.s11800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/128/00/WpJ.WpJ_VV.VV.ptw.s12800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/136/00/WpJ.WpJ_VV.VV.ptw.s13600.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/138/00/WpJ.WpJ_VV.VV.ptw.s13800.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/139/00/WpJ.WpJ_VV.VV.ptw.s13900.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/140/00/WpJ.WpJ_VV.VV.ptw.s14000.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/142/00/WpJ.WpJ_VV.VV.ptw.s14200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/144/00/WpJ.WpJ_VV.VV.ptw.s14400.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/150/00/WpJ.WpJ_VV.VV.ptw.s15000.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/171/00/WpJ.WpJ_VV.VV.ptw.s17100.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/172/00/WpJ.WpJ_VV.VV.ptw.s17200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/174/00/WpJ.WpJ_VV.VV.ptw.s17400.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/176/00/WpJ.WpJ_VV.VV.ptw.s17600.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/186/00/WpJ.WpJ_VV.VV.ptw.s18600.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/192/00/WpJ.WpJ_VV.VV.ptw.s19200.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file ../../VV/VVjob_highstat/195/00/WpJ.WpJ_VV.VV.ptw.s19500.tab.gz successfully.
+ # INFO.    [fastNLOTable::IsCompatible] Tables seem to be compatible for merging/appending. Continuing.
+ # INFO.    [fastNLOTable::AddTable] Adding contribution no. 0
+ # INFO.    [fastNLOTable::AddTable] Found matching flex-scale additive contribution.
+ # INFO.    [fnlo-tk-merge2] Merged 69 table file(s).
+ # INFO.    [fnlo-tk-merge2] Write merged results to file VV.ptw.tab.gz.
+ # INFO.    [fastNLOTable::WriteTable] Filename ends with .gz, therefore enable compression.
+ # INFO.    [fastNLOTable::WriteTable] Writing fastNLO table version 26000 with 1 theory contributions to file: VV.ptw.tab.gz
+ # INFO.    [fastNLOCoeffAddFlex::Write] Writing PDF coefficients into table.

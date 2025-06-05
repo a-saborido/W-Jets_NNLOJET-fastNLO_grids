@@ -1,0 +1,16 @@
+ ##################################################################################
+ # [fnlo-tk-cppread] Evaluating table: NNLO.ptw.tab.gz
+ # [fnlo-tk-cppread] Using PDF set   : NNPDF31_nnlo_as_0118
+ # [fnlo-tk-cppread] If possible, will try to do 3 scale factor variations.
+ # [fnlo-tk-cppread] Using alpha_s evolution code: LHAPDF
+ # [fnlo-tk-cppread] Preparing unnormalized cross sections,
+ # [fnlo-tk-cppread] Using scale definition kScale1
+ # [fnlo-tk-cppread] Using central scale factor of sclfac = 1.04516
+ # [fnlo-tk-cppread] No request for no. of flavours, using default of LHAPDF or Nf = 5.
+ # [fnlo-tk-cppread] No request for no. of loops, using default of LHAPDF or NLoop = 2.
+ # [fnlo-tk-cppread] No request for value of alpha_s(M_Z), using default of LHAPDF or asMz = 0.118.
+ # [fnlo-tk-cppread] No request for value of M_Z, using default of LHAPDF or Mz = 91.1876.
+ # [fnlo-tk-cppread] No request for Ecms, using default as defined in grid.
+ # [fnlo-tk-cppread] Using verbosity level: WARNING
+ ##################################################################################
+

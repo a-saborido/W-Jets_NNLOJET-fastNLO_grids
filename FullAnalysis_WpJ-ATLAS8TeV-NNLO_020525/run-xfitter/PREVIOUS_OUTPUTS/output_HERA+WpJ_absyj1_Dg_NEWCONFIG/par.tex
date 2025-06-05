@@ -1,0 +1,49 @@
+\documentclass[14pt]{report}
+\usepackage{extsizes}
+\usepackage[paperwidth=21cm,paperheight=21cm,left=0.2cm,right=0.2cm,top=0.2cm,bottom=0.2cm]{geometry}
+\usepackage{pxfonts}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{lightgray}{gray}{0.85}
+\usepackage{color}
+\begin{document}
+\begin{table}
+  \begin{center}
+  \rowcolors{2}{lightgray}{}
+  \resizebox*{!}{\textwidth}{
+    \begin{tabular}{lp{4.45cm}}
+      \toprule
+ Parameter   & output  \\ 
+      \midrule
+  'Adbar' & $0.1686 \pm 0.0056$  \\ 
+  'Adv' & $\textcolor{blue}{ 1.0000 }$  \\ 
+  'Ag' & $\textcolor{blue}{ 1.0000 }$  \\ 
+  'Auv' & $\textcolor{blue}{ 1.0000 }$  \\ 
+  'Bdbar' & $-0.1231 \pm 0.0041$  \\ 
+  'Bdv' & $1.112 \pm 0.070$  \\ 
+  'Bg' & $-0.821 \pm 0.023$  \\ 
+  'Buv' & $0.857 \pm 0.019$  \\ 
+  'Cdbar' & $9.7 \pm 1.1$  \\ 
+  'Cdv' & $5.14 \pm 0.33$  \\ 
+  'Cg' & $7.40 \pm 0.47$  \\ 
+  'Cubar' & $6.43 \pm 1.00$  \\ 
+  'Cuv' & $4.763 \pm 0.074$  \\ 
+  'DbarToS' & $\textcolor{blue}{ 1.0000 }$  \\ 
+  'Dg' & $-2.0 \pm 1.4$  \\ 
+  'Dubar' & $-0.1 \pm 1.1$  \\ 
+  'Euv' & $7.99 \pm 0.85$  \\ 
+  'fs' & $\textcolor{blue}{ 0.4000 }$  \\ 
+      \midrule
+  \rowcolor{white}
+ Fit status   & converged  \\ 
+  \rowcolor{white}
+ Uncertainties   & migrad-hesse  \\ 
+      \bottomrule
+    \end{tabular}
+  }
+  \end{center}
+\end{table}
+
+\end{document}
